@@ -1,2 +1,2 @@
-# A-hist-ria-do-cone-do-Android
+# Historia_do_Android
 Site responsivo sobre a história do ícone do Android
