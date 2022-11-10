@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    line-height: 1.2em;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-color: lightgreen;  
+}
+header {
+    background-image: linear-gradient(rgb(7, 180, 7), rgb(4, 119, 4));
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px black; 
+}
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px 0px black;
+    
+    
+}
+
+header > nav {
+    text-align: left;
+}
+nav > a {
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: chartreuse;
+    font-size: 120%;
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 1px;
+    
+    
+}
+
+article > h1 {
+    font-family: idroid;
+    padding-left: 10px;
+    color: rgb(4, 119, 4);
+}
+article > p {
+    text-indent: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links_dos_nomes {
+    background-color: rgb(166, 236, 166);
+    
+}
+.links_dos_nomes > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.links_dos_nomes >a:hover {
+    text-decoration: underline;
+}
+article > h2 {
+    font-family: idroid;
+    background-image:linear-gradient(to right, rgb(166, 236, 166), white);
+    margin-left: 10px;
+    padding-left: 5px;
+    color: rgb(4, 119, 4);}
+
+.media {
+    position: relative;
+    background-color: rgb(4, 119, 4);
+    height: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}   
+
+.media > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+article > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+article > picture {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+
+#informacoes_extras {
+    background-color: rgb(187, 234, 187);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding-left: 8px;
+    padding-bottom: 3px;
+    min-width: 400px;
+    max-width: 800px;
+    text-indent: 20px;
+}
+
+#informacoes_extras > h3{
+    background-color: rgb(39, 203, 39);
+    color: white;
+    border-radius: 15px;
+}
+
+aside > p {
+    text-indent: 20px;
+    padding-left: 20px;
+}
+
+footer > p{
+    background-color: rgb(1, 93, 1);
+    color: white;
+    text-align: center;
+    border: 3px solid green;
+}
+footer > p > a:visited {
+    color: white;
+    
+}
